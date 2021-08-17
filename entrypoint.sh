@@ -2,7 +2,6 @@
 
 #set -e at the top of your script will make the script exit with an error whenever an error occurs (and is not explicitly handled)
 set -eu
-apt install expect
 
 PASSWORD=$4
 #TEMP_SFTP_FILE='../sftp'
